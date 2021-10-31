@@ -1,5 +1,6 @@
 /* Custom Styles */
 
+/* Home Styles */
 .nav-fix {
   left: 4em!important;
 }
@@ -27,12 +28,10 @@
   background: linear-gradient(to right, rgb(202, 202, 202) 80%, rgba(202,202,202,0));
 }
 
-@media (min-width: 1199px) {
-  
+@media (min-width: 1199px) {  
   .container {
     max-width:1200px!important;
   }
-
 }
 
 
@@ -62,6 +61,8 @@
   letter-spacing: normal;
   letter-spacing: 2px;
 }
+
+/* Buttons */
 
 .home-buttons {
   display: flex;
@@ -136,10 +137,16 @@
   background-color: rgb(0,0,0);
 }
 
+.btn-white:hover {
+  color: rgb(255,255,255);
+  background-color: rgb(0,0,0);
+  
+}
+
 .btn-black {
-  width:14em;
+  width:16em;
   padding: 15px;
-  margin: 1em 0.5em 1em 0.5em;
+  margin: 1em 1em 1em 1em;
   font-family: Poppins, sans-serif;
   text-transform: none;
   color: white;
@@ -149,11 +156,15 @@
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
-  border: 2px solid rgb(0,0,0);
-  margin-right: 2.5em;
+  border: 2px solid rgb(0,0,0);  
 }
 
 .btn-black:active {
+  color: rgb(0,0,0);
+  background-color: rgb(255,255,255);
+}
+
+.btn-black:hover {
   color: rgb(0,0,0);
   background-color: rgb(255,255,255);
 }
@@ -166,6 +177,24 @@
   align-self:flex-end;
 }
 
+.btn-next {
+  width:15em;
+  padding: 15px;
+  font-family: Poppins, sans-serif;
+  color: rgb(255,255,255);
+  border-radius: 40px;
+  background-color: rgb(0,0,0);
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border: 2px solid rgb(0,0,0);
+  text-transform: none;
+  text-decoration: none;
+}
+
+
+/* Modal Styles */
 
 .customModal {
   width: 90vw!important;
@@ -254,6 +283,7 @@
   cursor: pointer;
 }
 
+/* Options */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -295,18 +325,3 @@ a {
   margin: 1em 0 1em 0;
 }
 
-.btn-next {
-  width:15em;
-  padding: 15px;
-  font-family: Poppins, sans-serif;
-  color: rgb(255,255,255);
-  border-radius: 40px;
-  background-color: rgb(0,0,0);
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border: 2px solid rgb(0,0,0);
-  text-transform: none;
-  text-decoration: none;
-}

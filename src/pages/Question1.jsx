@@ -30,7 +30,7 @@ function Question1() {
             <OptionBox option='Dryness' />
             <OptionBox option='Blackheads' />
             <OptionBox option='Dullness' />
-            <OptionBox option='DarkCircles' />
+            <OptionBox option='Dark Circles' />
             <OptionBox option='Redness' />
             <OptionBox option='Pores' />
             <OptionBox option='Sun Damage' />
@@ -40,6 +40,7 @@ function Question1() {
             <OptionBox option='Wrinkles and fine lines' />
             <OptionBox option='Loss of firmness' />
             <OptionBox option='Oiliness' />          
+            
         </div> 
         <div className="navigatorButtons">
             <button className="btn-next" type="submit">Next</button>
